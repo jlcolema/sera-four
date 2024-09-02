@@ -1,0 +1,287 @@
+/*
+Theme Name: Incubator Child
+Template: incubator
+Theme URI: http://keydesign-themes.com/incubator/
+Author: Key-Design
+Author URI: http://themeforest.net/user/Key-Design
+Description: Incubator - WordPress Startup Business Theme
+Version: 1.8
+Description: Shop Wordpress Theme
+Author: Key-Design
+Author URI: http://www.keydesign-themes.com
+Tags: one-column, custom-menu
+
+/* Below you can write your style */
+
+#preloader {
+	background-color: #37323D !important;
+}
+
+.spinner-sera4 {
+	width: 50px;
+	height: 50px;
+	border-radius: 100%;
+	margin: auto;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+}
+.spinner-sera4 .spinner-outer {
+	z-index: 9999;
+	margin: auto;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	-webkit-animation: rotate 1s linear infinite;
+    	animation: rotate 1s linear infinite;
+}
+.spinner-sera4 .spinner-inner {
+	z-index: 11;
+	margin: auto;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	-webkit-animation: rotate 1s linear infinite;
+   	 animation: rotate 1s linear infinite;
+	-webkit-animation-direction: reverse;
+   	 animation-direction: reverse;
+}
+.spinner-sera4 .spinner-center {
+	z-index: 10;
+	margin: auto;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+}
+
+.nav-logo, .fixed-logo {
+	width: 50%;
+	margin: 0 auto;
+}
+
+.teleporte-header {
+	max-width: 520px;
+	margin: 0 auto;
+}
+
+.teleporte-header img {
+	width: 50%;
+	margin: 0 auto;
+}
+
+.page404-overlay, .parallax .parallax-overlay {
+	background-color: #6b5975 !important;
+	opacity: 0.8;
+	background-blend-mode: hard-light;
+}
+
+.page-404, .with-overlay, .with-overlay .parallax-overlay {
+	background-color: #6b5975 !important;
+}
+
+section h1.section-heading, .blog-header .section-heading, section h2.section-heading {
+	max-width: 700px;
+}
+
+#teleporte-intro .section-heading {
+	text-indent: -9999px;
+	background-image: url(https://www.sera4.com/wp-content/uploads/2017/07/teleporte_dark.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 35% auto;
+}
+
+.featured_content_child:first-child {
+	margin-left: 16.66666666%;
+}
+
+.wpb_text_column ul li ul {
+	padding-left: 40px;
+}
+
+.wpb_text_column ul li ul li, .wpb_text_column ol li ul li {
+	line-height: 20px;
+	margin-bottom: 5px;
+}
+.wpb_text_column ul > li ul >li::before {
+	content: "\f068";
+}
+
+.kd-promobox.prb_image_right .prb-img, .kd-promobox.prb_image_left .prb-img {
+	text-align: center;
+}
+
+.kd-promobox.prb_image_right .prb-img img, .kd-promobox.prb_image_left .prb-img img {
+	max-width: 100%;
+	height: auto;
+	margin: auto;
+}
+
+.wpcf7 .wpcf7-text, .wpcf7 .wpcf7-email, .wpcf7 .wpcf7-select {
+	min-width: 100%;
+}
+
+.rev-btn, .rev-btn:visited {
+	padding: 0px;
+}
+
+.rev-btn .tt_button.second-style {
+	min-width: 100%;
+	width: 220px;
+	padding: 0 15px;
+}
+
+.tt_button.second-style .iconita {
+	margin-right: 10px;
+}
+
+.tt_button.second-style .prim_text {
+	width: 80%;
+	text-align: left;
+}
+
+.vc_grid-item-mini .vc_btn3.vc_btn3-size-md.vc_btn3-icon-right:not(.vc_btn3-o-empty) {
+    padding-right: 35px;
+}
+.vc_grid-item-mini .vc_btn3.vc_btn3-size-md.vc_btn3-icon-right:hover {
+    padding-right: 39px;
+}
+
+.section.with-overlay a, .section.with-overlay a:link, .section.with-overlay a:visited {
+	color: #ffffff;
+}
+
+.section.with-overlay a:hover {
+	color: #37323D;
+}
+
+#single-page table {
+	border-right: none;
+	border-bottom: none;
+}
+
+#single-page td, #single-page th {
+	border-top: none;
+	border-left: none;
+}
+
+#single-page table tfoot td {
+	border-top: 1px solid #e6e6e6;
+}
+
+.upper-footer .widget-title {
+	font-size: 16px;
+}
+
+.footer_widget .menu li {
+	display: block;
+	width: 100%;
+}
+
+.footer_widget ul a, .footer_widget .menu li a {
+	font-size: 14px;
+	font-weight: 400;
+	text-transform: none;
+}
+
+.upper-footer .textwidget {
+	font-size: 14px;
+	margin-top: 35px;
+	line-height: 35px;
+}
+
+.footer_widget .textwidget a {
+	color: #ffffff;
+}
+
+.footer_widget .textwidget a:hover {
+	color: #de1836;
+}
+
+.socials-widget {
+    padding-top: 0px;
+    border-top: none;
+}
+
+.socials-widget a {
+    margin-right: 15px;
+}
+
+.socials-widget a .fa {
+    color: #ffffff !important;
+}
+
+.socials-widget a:hover .fa {
+    color: #de1836 !important;
+}
+
+@media (min-width:960px) and (max-width:1180px) {
+	.navbar .modal-menu-item {
+    		display: block !important;
+	}
+}
+
+@media (max-width:960px) {
+
+	.parallax .parallax-overlay {
+    		height: 200% !important;
+	}
+
+	.wpb_wrapper .wpb_single_image img {
+		max-width: 100%;
+	}
+
+	#contact-us-home {
+		padding-bottom: 0px !important;
+	}
+
+	#contact-us-home img {
+		margin-bottom: -1px;
+	}
+
+	#teleporte-intro .section-heading {
+		background-size: 24% auto;
+	}
+}
+
+@media (min-width:768px) and (max-width:959px) {
+  	.hidden-sm {
+    		display: none !important;
+  	}
+}
+
+@media (min-width:401px) and (max-width:600px) {
+  	#teleporte-intro .section-heading {
+		background-size: 35% auto;
+	}
+}
+
+@media (max-width:400px) {
+	.key-icon-box.icon-left.icon-circle .fa, .key-icon-box.icon-left.icon-circle .tt-iconbox-customimg {
+		margin-right: 25px;
+	}
+
+	.key-icon-box .fa, .key-icon-box .nc-icon-outline {
+		font-size: 35px;
+		width: 80px;
+		height: 80px;
+		line-height: 80px;
+	}
+	
+	.key-icon-box.icon-left.icon-circle p {
+		max-width: calc(100% - 106px);
+
+	}
+
+	#teleporte-intro .section-heading {
+		background-size: 40% auto;
+	}
+}

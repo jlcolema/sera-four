@@ -1,0 +1,18 @@
+<wpml-config>
+    <admin-texts>
+        <key name="redux_ThemeTek">
+			<key name="tek-slider" />
+            <key name="tek-header-button-text" />
+            <key name="tek-modal-title-text" />
+			<key name="tek-modal-content" />
+			<key name="tek-modal-contactf7-formid" />
+			<key name="tek-blog-subtitle" />
+			<key name="tek-404-title" />
+			<key name="tek-404-subtitle" />
+			<key name="tek-404-back" />
+			<key name="tek-footer-text" />
+        </key>
+    </admin-texts>  
+</wpml-config>
+
+

@@ -1,0 +1,44 @@
+/*
+Admin custom CSS
+@package incubator
+by KeyDesign
+*/
+
+/* --------------------------------------
+ Meta box custom styles
+-----------------------------------------*/
+
+.kd_meta_block_prim { margin-bottom: 10px; padding-bottom: 10px; border-bottom: 1px dashed #ddd; }
+.meta_block_top { margin-top: 10px; }
+.meta_block_bottom { margin-bottom: 0; padding-bottom: 0; border-bottom: 0; }
+.kd_meta_block_prim label { width: 20%; display: inline-block; font-weight: bold; padding-top: 4px; }
+.kd_meta_block_prim .kd-meta-desc { display: block; width: 18%; padding-top: 6px; clear: both; font-style: italic; font-size: 12px; }
+.kd_meta_block_prim input { color: #000; font-size: 12px; display: inline-block; }
+.kd_meta_block_prim .page_subtitle_box { width: 73%; }
+.kd_meta_block_prim input[type=checkbox] { margin-top: 6px; }
+
+.redux-container-color .wp-picker-container { display: inline-block; }
+.redux-container-color .color-transparency-check { padding-top: 12px; }
+
+.redux-main .form-table-section-indented>tbody>tr:first-child { display: none; }
+.redux-main .form-table.no-border { margin-bottom: 20px; }
+.redux-main .form-table-section tr:nth-last-child(2) { border-bottom: 0; }
+
+.admin-color-fresh .redux-sidebar .redux-group-menu li.active.hasSubSections ul.subsection li a, .admin-color-fresh .redux-sidebar .redux-group-menu li.activeChild.hasSubSections ul.subsection li a {
+    background: #e5e5e5 !important;
+    width: auto;
+    border-top: 0 !important;
+    padding: 7px;
+    color: #333;
+    padding-left: 15px;
+    -webkit-transition: all .2;
+    -moz-transition: all .2;
+    -ms-transition: all .2;
+    -o-transition: all .2;
+    transition: all .2;
+}
+
+.admin-color-fresh .redux-sidebar .redux-group-menu li.activeChild.hasSubSections ul.subsection li.active a, .wp-customizer .redux-sidebar .redux-group-menu li.activeChild.hasSubSections ul.subsection li.active a {
+    background: #1f1f1f !important;
+    color: #fff !important;
+}

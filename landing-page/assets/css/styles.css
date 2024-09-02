@@ -1,0 +1,41 @@
+/*------------------------------
+Screen Stylesheet
+------------------------------*/
+
+/* Sera4 */
+/* Source: https://www.sera4.com */
+
+@charset 'utf-8';
+
+/* 1. Configuration
+------------------------------*/
+
+@import 'common/variables.css';
+
+/* 2. Vendors
+------------------------------*/
+
+/* 3. Baseline
+------------------------------*/
+
+@import 'common/reset.css';
+@import 'common/fonts.css';
+@import 'common/baseline.css';
+
+/* 4. Layouts
+------------------------------*/
+
+@import 'layouts/header.css';
+@import 'layouts/main.css';
+@import 'layouts/footer.css';
+
+/* 5. Components
+------------------------------*/
+
+@import 'components/button.css';
+
+/* 6. Sections
+------------------------------*/
+
+/* 7. Themes
+------------------------------*/
